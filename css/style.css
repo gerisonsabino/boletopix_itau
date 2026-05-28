@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: white !important;
+    font-family: sans-serif !important;
+    font-size: 9pt;
+}
+
+header > div {
+    margin: 0 auto;
+    width: 210mm !important;
+    padding: 5mm;
+}
+
+.boletopix {
+    width: 210mm !important;
+    height: 297mm !important;
+    margin: 0 auto;
+    padding: 5mm;
+    display: block;
+}
+
+.boletopix table,
+.boletopix table thead,
+.boletopix table tbody {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.boletopix table thead img {
+    width: 10mm;
+    margin-right: 1mm;
+    filter: grayscale(100%) contrast(3000%);
+}
+
+.boletopix table thead th {
+    height: 15mm;
+    font-weight: bolder;
+    vertical-align: bottom;
+    white-space: nowrap !important;
+    padding: 1mm 2.5mm;
+    font-size: 10.5pt;
+}
+
+.boletopix table td {
+    border: 1px solid #000000;
+    padding: 3pt;
+}
+
+.boletopix table strong {
+    display: inline-block;
+    white-space: nowrap !important;
+    margin-bottom: 1mm;
+    font-size: 8pt;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.boletopix table tfoot td {
+    padding: 3mm;
+}
+
+.p-0 {
+    padding: 0 !important;
+} 
+
+.valign-top {
+    vertical-align: top !important;
+}
+
+.valign-middle {
+    vertical-align: middle !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.border-left {
+    border-left: 1px solid #000000;
+} 
+
+.border-none {
+    border: none !important;
+} 
+
+.picote {
+    border:none;
+    border-bottom: 1pt dashed black;
+    margin: 2.5mm 0;
+}
+
+.qrcode {
+    max-width: 35mm;
+    margin: 0;
+}
+
+.codbarras {
+    max-width: 140mm;
+}
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
